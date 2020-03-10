@@ -2,16 +2,16 @@
 class SetupNewAwsUser < Formula
   desc "A tool that creates a virtual MFA device and rotates access keys for a new AWS user."
   homepage "https://github.com/trussworks/setup-new-aws-user"
-  version "0.1.10"
+  version "0.1.11"
   bottle :unneeded
 
   if OS.mac?
-    url "https://github.com/trussworks/setup-new-aws-user/releases/download/v0.1.10/setup-new-aws-user_0.1.10_Darwin_x86_64.tar.gz"
-    sha256 "d30c743df894124192d43ebb23fac0a2c630e79fd3250c0064bb71e82377e85b"
+    url "https://github.com/trussworks/setup-new-aws-user/releases/download/v0.1.11/setup-new-aws-user_0.1.11_Darwin_x86_64.tar.gz"
+    sha256 "05e807415d9b7346a2a03e5051f440b1ed8d083ace3cd5fc5802ecbc9db372c7"
   elsif OS.linux?
     if Hardware::CPU.intel?
-      url "https://github.com/trussworks/setup-new-aws-user/releases/download/v0.1.10/setup-new-aws-user_0.1.10_Linux_x86_64.tar.gz"
-      sha256 "f43df14c255ff39cb7e512e032b3e2f2171bb4ba1cb4d55eaaa683e2290fad9d"
+      url "https://github.com/trussworks/setup-new-aws-user/releases/download/v0.1.11/setup-new-aws-user_0.1.11_Linux_x86_64.tar.gz"
+      sha256 "e89c386587f69dc57abf9d343b9ff79162fcfa83fb8488da4cfb954b5cb63a26"
     end
   end
 
