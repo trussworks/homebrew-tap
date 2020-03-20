@@ -7,11 +7,11 @@ class EcsServiceLogs < Formula
 
   if OS.mac?
     url "https://github.com/trussworks/ecs-service-logs/releases/download/v0.1.3/ecs-service-logs_0.1.3_Darwin_x86_64.tar.gz"
-    sha256 "b7e1c221f8e764f074c709caa894b100153606c69e9efcdc6254df40eaf48ebf"
+    sha256 "1316afd2952c8ec719daa3be2dc4b9bdefe29375362a87250a9fa4e5eec52f31"
   elsif OS.linux?
     if Hardware::CPU.intel?
       url "https://github.com/trussworks/ecs-service-logs/releases/download/v0.1.3/ecs-service-logs_0.1.3_Linux_x86_64.tar.gz"
-      sha256 "a65aa2255b0e30cf45eb2d5030e27f29b466b42c6cdefe080e0beebbbfef8363"
+      sha256 "251ba04cb5f8e7a2cbbcf4467f97d7d8973799b9c9292782d962747b943f0990"
     end
   end
 
