@@ -7,11 +7,11 @@ class SetupNewAwsUser < Formula
 
   if OS.mac?
     url "https://github.com/trussworks/setup-new-aws-user/releases/download/v0.1.15/setup-new-aws-user_0.1.15_Darwin_x86_64.tar.gz"
-    sha256 "83b21865d2fc0b5b57c1d53f19703b8b9a65aeb5d1c21b39110edaa1af0935e6"
+    sha256 "c9235d88561d880b874e3c7dc6fc98a2565aa8c05ce74ec5d7fbc167e0ec0f9a"
   elsif OS.linux?
     if Hardware::CPU.intel?
       url "https://github.com/trussworks/setup-new-aws-user/releases/download/v0.1.15/setup-new-aws-user_0.1.15_Linux_x86_64.tar.gz"
-      sha256 "0b0325bcb75b378f51dc91c2a5d942038c69663af069c03b65f0600911305946"
+      sha256 "481a6bc8f5004dc29226ecffba498060476f44ab78ea88f6e68665c48f40e38b"
     end
   end
 
