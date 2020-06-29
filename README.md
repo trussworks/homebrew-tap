@@ -1,1 +1,7 @@
-Trussworks Homebrew tap repo
+# Trussworks Homebrew Tap
+
+Install the tap:
+
+```sh
+brew tap trussworks/homebrew-tap
+```
