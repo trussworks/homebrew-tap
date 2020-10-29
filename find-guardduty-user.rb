@@ -2,16 +2,16 @@
 class FindGuarddutyUser < Formula
   desc "find-guardduty-user is used to search CloudTrial to find users that triggered GuardDuty alerts."
   homepage "https://github.com/trussworks/find-guardduty-user"
-  version "0.0.1"
+  version "0.0.2"
   bottle :unneeded
 
   if OS.mac?
-    url "https://github.com/trussworks/find-guardduty-user/releases/download/v0.0.1/find-guardduty-user_0.0.1_Darwin_x86_64.tar.gz"
-    sha256 "03c7e56dd0014324082e02955bea53f29d91c04fa039df09dc23da511334b493"
+    url "https://github.com/trussworks/find-guardduty-user/releases/download/v0.0.2/find-guardduty-user_0.0.2_Darwin_x86_64.tar.gz"
+    sha256 "e33c97a70fbdc38221ea0b220421b57a594c5a220da08efc8cb961421a696a6a"
   elsif OS.linux?
     if Hardware::CPU.intel?
-      url "https://github.com/trussworks/find-guardduty-user/releases/download/v0.0.1/find-guardduty-user_0.0.1_Linux_x86_64.tar.gz"
-      sha256 "16ca73c9e34d7903f5541ebd99e9ad5b2a6e2f259c233a875faf7ca892d06713"
+      url "https://github.com/trussworks/find-guardduty-user/releases/download/v0.0.2/find-guardduty-user_0.0.2_Linux_x86_64.tar.gz"
+      sha256 "6f6c3b6465e6c43cb9f4ef90a5e6a3ba015254083c5814c38bf1d9911178a738"
     end
   end
 
