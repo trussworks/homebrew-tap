@@ -3,7 +3,6 @@ class HealthChecker < Formula
   desc "health-checker is used to verity that websites are healthy following a deploy."
   homepage "https://github.com/trussworks/health-checker"
   version "0.0.0"
-  bottle :unneeded
 
   if OS.mac?
     url "https://github.com/trussworks/health-checker/releases/download/v0.0.0/health-checker_0.0.0_Darwin_x86_64.tar.gz"

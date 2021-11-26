@@ -3,7 +3,6 @@ class FindGuarddutyUser < Formula
   desc "find-guardduty-user is used to search CloudTrial to find users that triggered GuardDuty alerts."
   homepage "https://github.com/trussworks/find-guardduty-user"
   version "0.0.3"
-  bottle :unneeded
 
   if OS.mac?
     url "https://github.com/trussworks/find-guardduty-user/releases/download/v0.0.3/find-guardduty-user_0.0.3_Darwin_x86_64.tar.gz"
