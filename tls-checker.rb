@@ -3,7 +3,6 @@ class TlsChecker < Formula
   desc "tls-checker is used to verify that websites are serving on accepted TLS versions and not downgrading."
   homepage "https://github.com/trussworks/tls-checker"
   version "0.0.2"
-  bottle :unneeded
 
   if OS.mac?
     url "https://github.com/trussworks/tls-checker/releases/download/v0.0.2/tls-checker_0.0.2_Darwin_x86_64.tar.gz"

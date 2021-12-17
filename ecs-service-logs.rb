@@ -3,7 +3,6 @@ class EcsServiceLogs < Formula
   desc "ecs-service-logs is used to filter JSON-formatted log lines in CloudWatch."
   homepage "https://github.com/trussworks/ecs-service-logs"
   version "0.3.0"
-  bottle :unneeded
 
   if OS.mac?
     url "https://github.com/trussworks/ecs-service-logs/releases/download/v0.3.0/ecs-service-logs_0.3.0_Darwin_x86_64.tar.gz"
