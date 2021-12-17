@@ -3,7 +3,6 @@ class SetupNewAwsUser < Formula
   desc "A tool that creates a virtual MFA device and rotates access keys for a new AWS user."
   homepage "https://github.com/trussworks/setup-new-aws-user"
   version "0.5.2"
-  bottle :unneeded
 
   if OS.mac?
     url "https://github.com/trussworks/setup-new-aws-user/releases/download/v0.5.2/setup-new-aws-user_0.5.2_Darwin_x86_64.tar.gz"
